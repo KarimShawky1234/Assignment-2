@@ -38,11 +38,11 @@ int main()
 	CenterA.Center(A,n);
 	Ax = CenterA.GetX();
 	Ay = CenterA.GetY();
-	cout << "The coordinates of the center of cluster A are (" << Ax << "," << Ay ")" << endl << endl;
+	cout << "The coordinates of the center of cluster A are (" << Ax << "," << Ay << ")" << endl << endl;
 	CenterB.Center(B,n);
 	Bx = CenterB.GetX();
 	By = CenterB.GetY();
-	cout << "The coordinates of the center of cluster B are (" << Bx << "," << By ")" << endl << endl;
+	cout << "The coordinates of the center of cluster B are (" << Bx << "," << By << ")" << endl << endl;
 	Point.Belong(Ax, Ay, Bx, By, p, m*2);
 	return 0;
 }
